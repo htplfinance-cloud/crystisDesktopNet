@@ -1,0 +1,23 @@
+<Report>
+<ReportHeader>
+<TextObject Name="Title" Text="Customer List" Font="Arial" Size="14" Bold="true" Align="Center"/>
+</ReportHeader>
+<PageHeader>
+<Field Name="CustomerID"/>
+<Field Name="CustomerName"/>
+<Field Name="Address"/>
+<Field Name="Phone"/>
+<Field Name="Email"/>
+<Field Name="City"/>
+<Field Name="NTN"/>
+</PageHeader>
+<Details>
+<FieldRef Name="CustomerID"/>
+<FieldRef Name="CustomerName"/>
+<FieldRef Name="Address"/>
+<FieldRef Name="Phone"/>
+<FieldRef Name="Email"/>
+<FieldRef Name="City"/>
+<FieldRef Name="NTN"/>
+</Details>
+</Report>
